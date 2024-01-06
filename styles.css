@@ -1,0 +1,136 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+#hero {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Services section styles */
+#services {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Work section styles */
+#work {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+}
+
+.work-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  /* Style work item */
+}
+
+/* Team section styles */
+#team {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  /* Style team member */
+}
+
+/* Contact section styles */
+#contact {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+}
+
+.contact-form {
+  /* Style contact form */
+}
