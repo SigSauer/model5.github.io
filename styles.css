@@ -9,6 +9,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 /* Header styles */
@@ -69,19 +71,26 @@ nav {
 #services {
   padding: 60px 20px;
   background-color: #fff;
+  text-align: center;
 }
 
 .services {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .service {
-  flex: 0 0 calc(50% - 20px);
+  flex: 0 0 calc(33.333% - 20px);
   margin: 10px;
   padding: 20px;
   background-color: #f5f5f5;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .service h3 {
@@ -93,42 +102,59 @@ nav {
 #work {
   padding: 60px 20px;
   background-color: #f5f5f5;
+  text-align: center;
 }
 
 .work-gallery {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .work-item {
   flex: 0 0 calc(33.333% - 20px);
   margin: 10px;
-  /* Style work item */
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.work-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Team section styles */
 #team {
   padding: 60px 20px;
   background-color: #fff;
+  text-align: center;
 }
 
 .team-members {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .team-member {
   flex: 0 0 calc(33.333% - 20px);
   margin: 10px;
-  /* Style team member */
+  padding: 20px;
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact section styles */
 #contact {
   padding: 60px 20px;
   background-color: #f5f5f5;
+  text-align: center;
 }
 
 .contact-form {
