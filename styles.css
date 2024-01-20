@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
  /* background: url('/bg.png') center/100% 100% no-repeat; */
 
-  background-image: url('/images/bg.png');
+  background-image: url('https://raw.githubusercontent.com/SigSauer/model5.github.io/main/images/bg.png');
   background-repeat: repeat-y;
   background-position: 50% 0;
  transition: 0s linear;
